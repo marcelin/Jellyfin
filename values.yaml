@@ -40,7 +40,7 @@ ingress:
     # kubernetes.io/tls-acme: "true"
   path: /
   hosts:
-    - store.test.lan
+    - test.lan
   tls: []
   #  - secretName: chart-example-tls
   #    hosts:
@@ -56,7 +56,7 @@ persistence:
     ##   set, choosing the default provisioner.  (gp2 on AWS, standard on
     ##   GKE, AWS & OpenStack)
     ##
-    storageClass: "	managed-nfs-storage"
+    storageClass: "managed-nfs-storage"
     ##
     ## If you want to reuse an existing claim, you can pass the name of the PVC using
     ## the existingClaim variable
